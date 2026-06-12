@@ -1,0 +1,273 @@
+body {
+      text-decoration: none;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+     html 
+    {
+      scroll-behavior: smooth;
+    }
+    .navigationbar
+    {
+       text-align: center;
+       display: inline-block;
+      position: fixed;
+     margin-top: 0%;
+      padding-top: 0%;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);    
+      box-shadow:2px;
+      height: 13%;
+    }    
+    .logo
+    {
+     gap: 0%;
+    }
+    .logo img
+    {
+      width: 50px;
+      transition: 0.3;
+    }
+    .logo img:hover{
+      transform: scale(1.3);
+    }
+    .logo b 
+    {
+font-size: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .nav_links
+    {
+         justify-content:center;
+         list-style: none;
+         display: flex;
+         gap: 40px;
+    }
+    .nav_button{
+      color: rgb(255, 254, 252);
+      text-decoration: none;
+      font-size: 22px; 
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+      font-style: normal;
+      transition: all 0.2s ease;
+    }
+     .nav_button:hover
+     {
+       color: #000000;
+       text-shadow: 1px 1px 3px rgb(255, 255, 255);
+     }
+     .page1
+     {
+      height: 105%;
+      background-image: url(image/brewingimg2.JPG);
+      background-color:beige; 
+      background-position:center;
+      background-size: cover;
+     }
+     .page1 h2
+     {
+      padding-top:45%;
+      padding-left:40px;
+      padding-right:1100px ;
+      color: white;
+     }
+     .page1 p
+    {
+      color: white;
+      border: 2px solid;
+      padding:2px;
+      transition: all 0.22s ease;
+    }
+    .page1 p:hover
+    {
+      transform: scale(1.1);
+      color: rgb(0, 0, 0);
+      background-color: rgb(252, 252, 236);
+    }
+   .page2
+   {
+      
+      min-height: 100vh; 
+      text-decoration: none;
+      background-image: url(image/page2.png);
+      background-color:beige; 
+      background-position:center;
+      background-size: cover;
+   }
+   .page3
+   {
+      background-color: rgb(250, 222, 184);
+   }
+    .page3 div
+    {
+      text-align: center;
+      padding-left: 5%;
+      padding-top: 5%;
+      display:inline-block ;
+    }
+   .page3 h1
+   {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding-left:40%;
+      padding-top:5%;
+     font-size: 40px;    
+   }
+   .page3 div img 
+   {
+    width: 10cm;
+    height: 12cm;
+    border-radius: 40%;
+    transition: 0.5s;
+   }
+   .page3 div img:hover 
+   {
+     transform:scale(1.1);
+     
+   }
+   .page3 div p
+   {
+    font-size:30;
+    padding-left:5%; 
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+   }
+   .explorebutton
+   {
+      color: rgb(0, 0, 0);
+      border: 2px solid;
+      padding:6px;
+      border-radius: 10px;
+      background-color: rgb(238, 157, 171);
+      text-decoration: none;
+      font-size:25px;
+     padding: 3px;
+   }
+   
+  .button-container
+  {
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 40px;
+  margin-left: 40%;
+  transition: 0.4s;
+  }
+   .button-container:hover
+    {
+      transform:scale(1.1);
+    }
+ 
+ .page4 {
+  background-color: beige;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.page4 img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  transition:0.5s;
+}
+.page4 img:hover{
+ transform:scale(1.1);
+}
+.page4 div {
+  margin-top: 20px;
+}
+
+.page4 p {
+  font-size: 48px;
+  margin: 20px 0 10px;
+}
+
+.page4 a {
+  display: inline-block;
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.page4 a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.page5
+{
+  position: relative;
+  display:flex;
+  height: 40%;
+}
+.page5 img
+{
+  width: 100%;
+  
+}
+.page5 p
+{
+  position:absolute;
+  color: whitesmoke;
+  font-size: 50px;
+  padding-left: 25%;
+  padding-top:0;
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page5 p a
+{
+
+  font-size: 15px;
+  position:absolute;
+  border: 2px #333 solid;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  padding: 4px;
+  background-color: rgb(234, 123, 141);
+}
+.footer
+{
+  
+  bottom: 0%;
+  height:70px;
+  width: 100%;
+  position: relative;
+  display:flex;
+}
+.footer img 
+{
+ width: 100%;
+ height:70px;
+ bottom: 0%;
+ display: block;
+}
+.footer ul
+{
+  height: 30%;
+   justify-content:center;
+   list-style: none;
+   display: flex;
+  position:absolute;
+  gap: 20px;
+  font-family: "Boldonse", system-ui;
+  font-weight: 40;
+  font-style: normal;
+  padding-left: 78%;  
+}
+.footer ul a
+{
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+   font-size: 10px;
+}
