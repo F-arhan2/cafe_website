@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MochaMuse Cafe</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="navigationbar" id="navbar">
+    <nav>
+      <div class="logo">
+        <img src="image/logo.webp" alt="MochaMuse Logo">
+        <span>MochaMuse</span>
+      </div>
+      <ul class="nav_links">
+        <li><a class="nav_button" href="#page1">HOME</a></li>
+        <li><a class="nav_button" href="#page2">ABOUT US</a></li>
+        <li><a class="nav_button" href="#page3">MENU</a></li>
+        <li><a class="nav_button" href="#testimonials">REVIEWS</a></li>
+        <li><a class="nav_button" href="#page5">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page1" id="page1">
+    <div class="hero-content">
+    </div>
+  </section>
+
+  <section class="about-section" id="our-story">
+    <div class="container about-container">
+
+      <div class="about-image">
+        <img src="image/coffee-craft.jpg" alt="Barista pouring latte art at MochaMuse">
+      </div>
+
+      <div class="about-content">
+        <span class="subtitle">ABOUT MOCHAMUSE</span>
+        <h2>Every Cup a Masterpiece</h2>
+        <p>
+          MochaMuse was born out of a simple, obsessive passion for the perfect brew.
+          To us, coffee isn’t just a morning routine—it’s an art form. From sourcing
+          the finest single-origin beans to the final, precise pour, we craft cozy
+          moments and exceptional flavors for true coffee enthusiasts.
+        </p>
+        <a href="#menu" class="btn-primary">Explore Our Brews</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="stats-section">
+    <div class="stats-container">
+      <div class="stat-card">
+        <h3 class="counter" data-target="15000">0</h3>
+        <p>Cups Brewed</p>
+      </div>
+      <div class="stat-card">
+        <h3 class="counter" data-target="25">0</h3>
+        <p>Coffee Blends</p>
+      </div>
+      <div class="stat-card">
+        <h3 class="counter" data-target="4800">0</h3>
+        <p>Happy Clients</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="page3" id="page3">
+    <div class="section-title">
+      <h1>DISCOVER OUR EXQUISITE COFFEE</h1>
+      <hr>
+    </div>
+
+    <div class="filter-container">
+      <button class="filter-btn active" data-filter="all">All Menu</button>
+      <button class="filter-btn" data-filter="hot">Hot Coffee</button>
+      <button class="filter-btn" data-filter="cold">Cold Drinks</button>
+    </div>
+
+    <div class="menu-grid">
+      <div class="menu-item" data-category="hot">
+        <img src="image/expresso shot.png" alt="Crema Expresso">
+        <p>Crema Espresso</p>
+      </div>
+      <div class="menu-item" data-category="hot">
+        <img src="image/cappuccinolatte.jpg" alt="Cappuccino Latte">
+        <p>Cappuccino Latte</p>
+      </div>
+      <div class="menu-item" data-category="cold">
+        <img src="image/frappuccino.avif" alt="Frappuccino">
+        <p>Frappuccino</p>
+      </div>
+      <div class="menu-item" data-category="hot">
+        <img src="image/galaocoffee.jpg" alt="Galao Coffee">
+        <p>Galao Coffee</p>
+      </div>
+      <div class="menu-item" data-category="cold">
+        <img src="image/caramellatte.jpg" alt="Caramel Latte">
+        <p>Caramel Latte</p>
+      </div>
+      <div class="menu-item" data-category="hot">
+        <img src="image/mochalatte.jpg" alt="Mocha Latte">
+        <p>Mocha Latte</p>
+      </div>
+      <div class="menu-item hidden-item" data-category="cold">
+        <img src="image/Affogato.jpg" alt="Affogato">
+        <p>Affogato</p>
+      </div>
+      <div class="menu-item hidden-item" data-category="hot">
+        <img src="image/Flatwhite.jpg" alt="Flat White">
+        <p>Flat White</p>
+      </div>
+      <div class="menu-item hidden-item" data-category="hot">
+        <img src="image/DOPPIO.webp" alt="Doppio">
+        <p>Doppio</p>
+      </div>
+    </div>
+
+    <div class="button-container">
+      <button id="loadMoreBtn" class="explorebutton">Explore More</button>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <div class="section-title">
+      <h1>WHAT OUR MUSES SAY</h1>
+      <hr>
+    </div>
+    <div class="carousel-container">
+      <div class="testimonial-slide active">
+        <p class="review-text">"The Crema Espresso here rewrote my standard for morning coffee. Smooth, aromatic, and
+          rich!"</p>
+        <h4 class="review-author">- Sarah K.</h4>
+      </div>
+      <div class="testimonial-slide">
+        <p class="review-text">"An amazing environment to work remotely or catch up with friends. The Frappuccinos are
+          out of this world."</p>
+        <h4 class="review-author">- Alex M.</h4>
+      </div>
+      <div class="testimonial-slide">
+        <p class="review-text">"MochaMuse isn't just a coffee shop; it's a neighborhood sanctuary. Friendly staff and
+          exceptional beans."</p>
+        <h4 class="review-author">- Elena R.</h4>
+      </div>
+
+      <button class="carousel-arrow prev" id="prevSlide">❮</button>
+      <button class="carousel-arrow next" id="nextSlide">❯</button>
+    </div>
+  </section>
+
+  <section class="page4">
+    <div class="location-container">
+      <div class="img-side">
+        <img src="image/cafe.jpg" alt="Cafe Interior">
+      </div>
+      <div class="info-side">
+        <p>Check out our Nearest Cafe</p>
+
+        <a href="https://maps.google.com" target="_blank" rel="noopener" class="location-btn">Find Location</a>
+        <div class="hours-container">
+          <p class="hours-row"><span class="hours-tag">MON - THU</span> 9:00 - 21:00</p>
+          <p class="hours-row"><span class="hours-tag">FRI - SUN</span> 9:00 - 23:00</p>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="page5" id="page5">
+    <div class="banner-overlay">
+      <p>Have Questions or Need Information About Us?</p>
+      <button id="openContact" class="contact-btn">Contact Us</button>
+    </div>
+  </section>
+
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">×</span>
+      <h3>Drop us a Message</h3>
+      <form id="cafeForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="footer-logo-text">MochaMuse</span>
+        <p class="footer-tagline">Crafting cozy moments, one masterpiece at a time.</p>
+      </div>
+
+      <div class="footer-links-wrapper">
+        <ul class="contact_links">
+          <li><a href="https://www.instagram.com/farhanshaikh1278/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Twitter</a></li>
+          <li><a href="https://www.linkedin.com/in/farhan-s-a062222efwvf67358/" target="_blank"
+              rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@FarhanShaikh-u8l" target="_blank" rel="noopener">YouTube</a></li>
+        </ul>
+        <p class="copyright">© 2026 MochaMuse. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
